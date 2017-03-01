@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ACACC9DD-9CE9-43DE-9E8B-464DFABCCC7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D5F12AB1-FD39-4632-B680-FAF7628D6FF4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Elmah.Io.ContentSecurityPolicy.Proxy", "src\Elmah.Io.ContentSecurityPolicy.Proxy\Elmah.Io.ContentSecurityPolicy.Proxy.xproj", "{C9FDADD6-60DA-4950-A051-A17991F972C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9FDADD6-60DA-4950-A051-A17991F972C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FDADD6-60DA-4950-A051-A17991F972C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FDADD6-60DA-4950-A051-A17991F972C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FDADD6-60DA-4950-A051-A17991F972C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9FDADD6-60DA-4950-A051-A17991F972C0} = {ACACC9DD-9CE9-43DE-9E8B-464DFABCCC7A}
+	EndGlobalSection
+EndGlobal
