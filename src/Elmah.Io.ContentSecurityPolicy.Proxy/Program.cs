@@ -46,6 +46,7 @@ namespace Elmah.Io.ContentSecurityPolicy.Proxy
                                         Title = "Content-Security-Policy report",
                                         Severity = Severity.Information.ToString(),
                                         Detail = body,
+                                        Hostname = request.Headers["Referer"],
                                     });
                             }
                         }));
